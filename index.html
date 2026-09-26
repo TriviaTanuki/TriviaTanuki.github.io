@@ -6,22 +6,44 @@
 <title>TriviaEngine</title>
 <style>
   body { font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px; line-height: 1.7; color: #222; background: #fff; }
-  h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
   a { color: #0b57d0; }
+  nav { margin-bottom: 1.5rem; font-size: .95rem; }
+  .yt-badge { margin: 1rem 0; }
+  .yt-badge img { height: 48px; width: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { border-bottom: 1px solid #ddd; padding: 6px 8px; text-align: left; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd; font-size: .9rem; }
 </style>
 </head>
 <body>
 <h1>TriviaEngine</h1>
+<nav><a href="privacy.html">プライバシーポリシー / Privacy Policy</a></nav>
+
+<div class="yt-badge">
+  <img src="developed-with-youtube.png" alt="Developed with YouTube">
+</div>
+
 <p>TriviaEngine は、運営者「トリビアたぬき」が自分の YouTube チャンネルに雑学の短い動画を投稿するための、個人用の自動化ツールです。一般の利用者向けのサービスではありません。</p>
-<p>このツールは、運営者自身が管理する YouTube チャンネルに対してのみ、YouTube Data API を使って動画のアップロードと、投稿先チャンネルの確認を行います。</p>
-<ul>
-  <li><a href="privacy.html">プライバシーポリシー</a></li>
-</ul>
+<p>このツールは <strong>YouTube API サービス</strong>を使って、運営者自身が管理する YouTube チャンネルへの動画のアップロードと、投稿先チャンネルの確認を行います。データの取り扱いは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+<h2>運営しているチャンネル</h2>
+<table>
+  <tr><th>チャンネル</th><th>YouTube</th></tr>
+  <tr><td>動物雑学(日本語)</td><td><a href="https://www.youtube.com/@triviatanuki_animal_jp">@triviatanuki_animal_jp</a></td></tr>
+  <tr><td>動物雑学(英語)</td><td><a href="https://www.youtube.com/@triviatanuki_animal_en">@triviatanuki_animal_en</a></td></tr>
+  <tr><td>心理雑学(日本語)</td><td><a href="https://www.youtube.com/@triviatanuki_psychology_jp">@triviatanuki_psychology_jp</a></td></tr>
+  <tr><td>心理雑学(英語)</td><td><a href="https://www.youtube.com/@triviatanuki_psychology_en-1">@triviatanuki_psychology_en-1</a></td></tr>
+  <tr><td>科学雑学(日本語)</td><td><a href="https://www.youtube.com/@triviatanuki_science_jp">@triviatanuki_science_jp</a></td></tr>
+  <tr><td>科学雑学(英語)</td><td><a href="https://www.youtube.com/@triviatanuki_science_en">@triviatanuki_science_en</a></td></tr>
+</table>
 
 <h2 lang="en">About (English)</h2>
-<p lang="en">TriviaEngine is a personal automation tool used by the operator "Trivia Tanuki" to upload short trivia videos to the operator's own YouTube channels. It is not a service offered to the general public. It uses the YouTube Data API only to upload videos to, and verify the identity of, channels owned and managed by the operator.</p>
-<ul lang="en">
-  <li><a href="privacy.html#en">Privacy Policy</a></li>
-</ul>
+<p lang="en">TriviaEngine is a personal automation tool used by the operator "Trivia Tanuki" to upload short trivia videos to the operator's own YouTube channels. It is not a service offered to the general public. It uses <strong>YouTube API Services</strong> only to upload videos to, and verify the identity of, the channels listed above, which are owned and managed by the operator. See the <a href="privacy.html#en">Privacy Policy</a> for how data is handled.</p>
+
+<footer>
+  <a href="privacy.html">プライバシーポリシー</a> ・ <a href="privacy.html#en">Privacy Policy</a><br>
+  YouTube is a trademark of Google LLC.
+</footer>
 </body>
 </html>
